@@ -4,9 +4,11 @@
 
  html body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.6rem;
     margin: 0 auto 0 auto;
     height: 100%;
-    /* background-image: url("../images/gun_metal.png"); */
+    background-image: url("../images/gun_metal.png");
+    /* background-size: 100% auto; */
     background-repeat: repeat;
     overflow: invisible;
   }
@@ -23,9 +25,9 @@
     bottom: 0%;
     margin: 0 auto 0 auto;
     color: white;
-    padding-top: 23px;
+    /* padding-top: 23px; */
     text-align: center;
-    width: 20%;
+    width: 15%;
     background-color: #4aaaa5;
   }
 
@@ -40,6 +42,23 @@
     color: #4aaaa5;
   }
 
+  .imageDim {
+    max-width: 360px;
+    max-height: 240px;
+  }
+  .card-img-top {
+    max-width: 360px;
+    max-height: 240px;
+    object-fit: cover;
+  }
+
   #push {
       margin-top: 70px;
+  }
+
+  footer {
+    color: white;
+  }
+  footer.custBorder{
+    border-top: 8px solid #4aaaa5;
   }
